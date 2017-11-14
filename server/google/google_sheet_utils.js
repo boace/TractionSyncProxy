@@ -275,6 +275,8 @@ this.add_sheet_header = function(spreadsheet_id, worksheet_id, auth_token, sheet
 this.add_rows = function(spreadsheet_id, worksheet_id, auth_token, rows, startRowIndex, startColIndex, callback) {
     if (LOG_TRACE) console.log('add_rows - ENTER');
 
+console.log('add_rows - ENTER');
+console.log(rows);
     var requestList = [];
     var r = {
         "requests": [{

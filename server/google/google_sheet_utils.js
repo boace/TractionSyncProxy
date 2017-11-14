@@ -276,7 +276,7 @@ this.add_rows = function(spreadsheet_id, worksheet_id, auth_token, rows, startRo
     if (LOG_TRACE) console.log('add_rows - ENTER');
 
 console.log('1111111111add_rows - ENTER');
-console.log(rows);
+console.log(rows[1].values[3]);
     var requestList = [];
     var r = {
         "requests": [{

@@ -277,6 +277,7 @@ this.add_rows = function(spreadsheet_id, worksheet_id, auth_token, rows, startRo
 
     //console.log('1111111111add_rows - ENTER');
     for (var i = 0; i < rows.length; i++) {
+        console.log(i);
         console.log(rows[i].values[3]);
     }
 
